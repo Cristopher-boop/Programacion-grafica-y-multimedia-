@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Series y Búsqueda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Generar Series en Paralelo</h2>
+
+        <label for="limite">Cantidad de números:</label>
+        <input type="number" id="limite" value="20">
+
+        <h2>Búsqueda en Texto</h2>
+        <label for="parrafo">Escribe un párrafo:</label>
+        <textarea id="parrafo" rows="5" cols="50"></textarea>
+
+        <label for="palabra">Escribe una palabra para buscar:</label>
+        <input type="text" id="palabra">
+
+        <button id="generar">Generar</button>
+
+        <h3>Resultados:</h3>
+        <pre id="salida"></pre>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
